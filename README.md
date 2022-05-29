@@ -1,1 +1,14 @@
-# surfs_up
+# Surfs Up
+---
+# Overview of the Analysis
+The purpose of this analysis was to utilize weather information from Hawaii in order to view the differences in maximum, minimum and average temperatures for different periods of time.  The specific periods of time that were compared during this analysis were the Months of June and December, however it would be possible to easily adjust the code to compare the temperature data for any two months.  With some additional tweaking it is also possible to get temperature data for periods of time that were shorter or longer than a month.  The client in this situation is looking to open a surf and ice cream shop, and they will be able to use this temperature data in order to determine if that would be a sustainable business year-round in Hawaii.
+## Results
+### June Temperature Summary
+![june_temps](https://github.com/conpm/surfs_up/blob/main/Resources/june_temps.PNG)
+### December Temperature Summary
+![december_temps](https://github.com/conpm/surfs_up/blob/main/Resources/december_temps.PNG)
+- The two tables above show the gathered temperature data for each of the selected months.  The 'count' row represents the number of temperature measurements taken in the month, while the rest of the rows represent various summarizations of the monthly temperatures in Fahrenheit.
+- From comparing the two tables, it is clear that there is very little change in temperature between the months of June and December in Hawaii, with the greatest difference being seen in the minimum temperatures which are only separated by 8 degrees.
+- The smallest changes were seen in the standard deviation and the maximum temperatures, this means that the weather remains mostly consistant during both of these months, it also means that on hot days in December it is still almost as hot as hot days in June.
+## Summary
+Based on the results of this analysis, it seems like a surf and ice cream shop would definitely be a sustainable year-round business in Hawaii.  The minor change in maximum temperature between the Summer and Winter months, means that there are days in the Winter months were it will be just as hot as in the summer, and therefore it would be likely to have customers who want to surf, as well as customers who want ice cream throughout the entirity of the year.  One additional query which could help to provide a better understanding about the differences in temperature throughout the year would be a query which summarizes temperature data for each of the 12 months.  This would be relatively easy by reworking the code that is already written and could show if there is seasonal changes which might be unexpected.  Another query which would be very useful would be to gather the precipitation data for the months, this could show if there is an abundance of rainfall at some point in the year.  High levels of precipitation could lead to decreased customers for both surfing and ice cream.
